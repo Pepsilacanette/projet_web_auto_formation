@@ -1,0 +1,252 @@
+<?php session_start(); ?>
+
+<! DOCTYPE HTML>
+
+<!-- Réalisé par Thomas Lardé, Commencé le 29 septembre 2022, Fiche de personnage interactive -->
+
+<!-- Note à soi même : -->
+
+<!-- Commentaire / Bug à corriger : -->
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>Fiche Perso Pathfinder</title>
+		<link href="style/css_fp.css" rel="stylesheet" type="text/css">
+		<script src="script/scr.js"></script>
+
+	</head>
+
+	<body> 
+	
+		<div class="p">
+	
+			<img src="style/pathfinder.jpg" class="e">
+
+			<div class="e bnom"><input value="Jean Neymard" class="e inom"><p class='nom'>Nom du personnage</p></div>
+			
+			<div class="e bal"><input class="e ial"><p class='al'>Alignement</p></div>
+			
+			<div class="e bpj"><input class="e ipj"><p class='pj'>Nom du joueur</p></div>
+			
+			<br> 
+			
+			<div class="e bcn"><input class="e icn"><p class='cn'>Classe et niveau</p></div>
+			
+			<div class="e bdi"><input class="e idi"><p class='di'>Divinité</p></div>
+			
+			<div class="e bor"><input class="e ior"><p class='or'>Origine</p></div>
+			
+			<br>
+			
+			<div class="e"><h1>FEUILLE DE PERSONNAGE</h1></div>
+			
+			<div class="e brc"><input class="e irc"><p class='rc'>Race</p></div>
+			
+			<div class="e bctl"><input class="e ictl"><p class='ctl'>Catégorie</p></div>
+			
+			<div class="e bsx"><input class="e isx"><p class='sx'>Sexe</p></div>
+			
+			<div class="e bag"><input class="e iag"><p class='ag'>Age</p></div>
+			
+			<div class="e btl"><input class="e itl"><p class='tl'>Taille</p></div>
+			
+			<div class="e bpo"><input class="e ipo"><p class='po'>Poids</p></div>
+			
+			<div class="e bch"><input class="e ich"><p class='ch'>Cheveux</p></div>
+			
+			<div class="e bye"><input class="e iye"><p class='ye'>Yeux</p></div>
+			
+			<p> &nbsp </p>
+			
+			<div class="blocp">
+			
+			<div class="e bde"><p class='de'>Caracteristiques</p></div>
+			
+			<div class="e bde"><p class='de'>Valeur</p></div>
+			
+			<div class="e bde"><p class='de'>Modif</p></div>
+			
+			<div class="e bde"><p class='de'>Val.temp</p></div>
+			
+			<div class="e bde"><p class='de'>Mod.temp</p></div>
+			
+			<div class="e bpvv"><p class='pvv'>Points<br>de vie</p></div>
+			
+			<div class="e bpv"><p class="e pv">Reste | Total<br><input class="e ipv">  /  <input class="e ipv"></p></div>
+			
+			<div class="e bpv"><p class="e pv">R. Dégats <br> <input class="e ipv"></p></div>
+			
+			<div class="e bpvv"><p class='pvv'>Vitesse de déplacement</p></div>
+			
+			<div class="e bmv"><p class="e mv" >De base<br><input class="e imv"> M <input class="e imv"> C</p></div>
+			
+			<div class="e bmv"><p class="e mv">En armure<br><input class="e imv"> M <input class="e imv"> C</p></div>
+			
+			<div class="e btem"><p class="e tem"><span style="position: absolute">Temp.</span><textarea class="e item" rows="2" cols="20"></textarea></p></div>
+			
+			<br>
+			
+			<div class="e bcar"><p class='car'>Force</p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="bl e"><p class="bll">Blessures / Points de vie actuels</p><textarea rows="5" cols="37"></textarea>
+			
+			<br><br><br><br>
+			
+			<p class="bll">Dégats non létaux</p><textarea rows="3" cols="37"></textarea></div>
+			
+			<br><br>
+			
+			<div class="e bcar"><p class='car'>Dexterité</p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<br><br>
+			
+			<div class="e bcar"><p class='car'>Constitution</p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<br><br>
+			
+			<div class="e bcar"><p class='car'>Intelligence</p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<br><br>
+			
+			<div class="e bcar"><p class='car'>Sagesse</p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<br><br>
+			
+			<div class="e bcar"><p class='car'>Charisme</p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p></div>
+			
+			<div class="e bini"><p class='ini'>Initiative</p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p><p class="e min">Total</p></div>
+			
+			<div class="e bin"><p class="e in"> = </p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p><p class="e min">Mod dex</p></div>
+			
+			<div class="e bin"><p class="e in"> + </p></div>
+			
+			<div class="e bcel"><p class="e cel"><input class="e icel"></p><p class="e min">Mod divers</p></div>
+			
+			<br>
+			
+			<div class="e bca"><p class='ca'>CA<br>Classe d'armure</p></div>
+			
+			<div class="e bcel2"><p class="e cel2"><input class="e icel2"></p></div>
+			
+			<div class="e bcel3"><p class="e cel3"> = 10 + </p></div>
+			
+			<div class="e bcel2"><p class="e cel2"><input class="e icel2"></p><p class="e bcel4 cel4">Classe d'Armure</p></div>
+			
+			<div class="e bcel3"><p class="e cel3"> + </p></div>
+			
+			<div class="e bcel2"><p class="e cel2"><input class="e icel2"></p><p class="e bcel4 cel4">Bonus de bouclier</p></div>
+			
+			<div class="e bcel3"><p class="e cel3"> + </p></div>
+			
+			<div class="e bcel2"><p class="e cel2"><input class="e icel2"></p><p class="e bcel4 cel4">Mod de dex</p></div>
+			
+			<div class="e bcel3"><p class="e cel3"> + </p></div>
+			
+			<div class="e bcel2"><p class="e cel2"><input class="e icel2"></p><p class="e bcel4 cel4">Mod de taille</p></div>
+			
+			<div class="e bcel3"><p class="e cel3"> + </p></div>
+			
+			<div class="e bcel2"><p class="e cel2"><input class="e icel2"></p><p class="e bcel4 cel4">Armure naturelle</p></div>
+			
+			<div class="e bcel3"><p class="e cel3"> + </p></div>
+			
+			<div class="e bcel2"><p class="e cel2"><input class="e icel2"></p><p class="e bcel4 cel4">Mod de parade</p></div>
+			
+			<div class="e bcel3"><p class="e cel3"> + </p></div>
+			
+			<div class="e bcel2"><p class="e cel2"><input class="e icel2"></p><p class="e bcel4 cel4">Mod divers</p></div>
+			
+			<br>
+			
+			<div class="e bca"><p class='ca'>Contact<br>Classe d'armure</p></div>
+			
+			<div class="e bcel2"><p class="e cel2"><input class="e icel2"></p></div>
+			
+			<div class="e bca"><p class='ca'>Pris au dépourvu<br>Classe d'armure</p></div>
+			
+			<div class="e bcel2"><p class="e cel2"><input class="e icel2"></p></div>
+			
+			<div class="bl2 e"><p class="bll2">Temp.</p><textarea rows="2" cols="26" class="ibll2"></textarea></div>
+			
+			<br><br>
+			
+			<p>ICI :</p>
+			
+			
+			
+			<textarea rows="2" cols="26" class="ibll2" id="o"></textarea>
+			<button type="submit" id="b">ICI</button>
+			
+			<?php 
+			
+			echo 'oui'
+			
+			?>
+			
+			<?php
+				$JsonParser = file_get_contents("script/donnee.json");
+				var_dump($JsonParser);
+			?>
+			
+		</div>
+		
+		</div>
+
+	</body>
+
+</html>

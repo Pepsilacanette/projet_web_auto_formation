@@ -1,0 +1,646 @@
+<style>
+
+html{
+	background-color: #C0C0C0;
+}
+
+body{
+	width: 1240px;
+	height: 1754px;
+	border: 1px Solid black;
+	margin: auto;
+	background-color: white;
+	padding: 30px;
+}
+
+/* ----------------------------------------- */
+
+.p {
+	display: block;
+}
+
+.e {
+	display : inline-block;
+	vertical-align: text-top; 
+}
+
+/* ----------------------------------------- */
+
+img {
+	width: 400px;
+	height: auto;
+	position: absolute;
+}
+
+p,h1 {
+	font-family: FreeMono, monospace;
+}
+
+h1 {
+	font-size: 18px;
+	margin-left: 105px;
+}
+
+.min {
+	font-size: 12px;
+}
+
+.blocp{
+	font-size: 13px;
+}
+
+/* ----------------------------------------- */
+
+.bl{
+	padding-top: 22px;
+	padding-left: 40px;
+	font-size: 12px;
+	position: absolute;
+}
+
+.bll{
+	margin: 0%;
+	font-size: 9px;
+}
+
+
+/* ----------------------------------------- */
+
+.bnom{
+	margin-left: 400px;
+	margin-top: 15px;
+}
+
+.nom{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.inom{
+	border: none;
+	background-color: none;
+	width: 285px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bal{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.al{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.ial{
+	border: none;
+	background-color: none;
+	width: 105px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bpj{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.pj{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.ipj{
+	border: none;
+	background-color: none;
+	width: 365px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bcn{
+	margin-top: 8px;
+	margin-left: 400px;
+}
+
+.cn{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.icn{
+	border: none;
+	background-color: none;
+	width: 425px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bdi{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.di{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.idi{
+	border: none;
+	background-color: none;
+	width: 160px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bor{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.or{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.ior{
+	border: none;
+	background-color: none;
+	width: 170px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.brc{
+	margin-top: 8px;
+	margin-left: 83px;
+}
+
+.rc{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.irc{
+	border: none;
+	background-color: none;
+	width: 168px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bctl{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.ctl{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.ictl{
+	border: none;
+	background-color: none;
+	width: 80px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bsx{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.sx{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.isx{
+	border: none;
+	background-color: none;
+	width: 60px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bag{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.ag{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.iag{
+	border: none;
+	background-color: none;
+	width: 45px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.btl{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.tl{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.itl{
+	border: none;
+	background-color: none;
+	width: 70px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bpo{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.po{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.ipo{
+	border: none;
+	background-color: none;
+	width: 70px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bch{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.ch{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.ich{
+	border: none;
+	background-color: none;
+	width: 70px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bye{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.ye{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.iye{
+	border: none;
+	background-color: none;
+	width: 70px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+
+
+/* ----------------------------------------- */
+
+.bde{
+	margin-top: 8px;
+	margin-left: 15px;
+	height: auto;
+	text-align: center;
+}
+
+.de{
+	margin: 0%;
+	font-size: 10px;
+}
+
+/* ----------------------------------------- */
+
+.bcar{
+	margin-top: 8px;
+	margin-left: 20px;
+	background-color: black;
+	color: white;
+	width: 80px;
+	height: auto;
+	text-align: center;
+	font-size: 11px;
+}
+
+.car{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+}
+
+/* ----------------------------------------- */
+
+.bcel{
+	margin-top: 8px;
+	margin-left: 20px;
+	width: 30px;
+	height: 25px;
+	text-align: center;
+	border: 1px Solid black;
+}
+
+.cel{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.icel{
+	border: none;
+	background-color: none;
+	width: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 13px;
+}
+
+/* ----------------------------------------- */
+
+.bpvv{
+	margin-top: 8px;
+	margin-left: 30px;
+	background-color: black;
+	color: white;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	font-size: 11px;
+}
+
+.pvv{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+}
+
+/* ----------------------------------------- */
+
+.bpv{
+	margin-top: 8px;
+	margin-left: 5px;
+	width: 100px;
+	height: 38px;
+	text-align: center;
+	border: 1px Solid black;
+	font-size: 12px;
+}
+
+.pv{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	text-align: left;
+	
+}
+
+.ipv{
+	border: none;
+	background-color: none;
+	width: 30px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+/* ----------------------------------------- */
+
+.bmv{
+	margin-top: 8px;
+	margin-left: 5px;
+	width: 100px;
+	height: 38px;
+	text-align: center;
+	border: 1px Solid black;
+	font-size: 12px;
+}
+
+.mv{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.imv{
+	border: none;
+	background-color: none;
+	width: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+/* ----------------------------------------- */
+
+.btem{
+	margin-top: 8px;
+	margin-left: 5px;
+	width: 200px;
+	height: 38px;
+	text-align: center;
+	border: 1px Solid black;
+	font-size: 12px;
+}
+
+.tem{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+}
+
+.item{
+	border: none;
+	background-color: none;
+	width: 150px;
+	padding-bottom: 0px;
+	text-align: center;
+	margin-left: 35px;
+}
+
+/* ----------------------------------------- */
+
+.bini{
+	margin-top: 8px;
+	margin-left: 35px;
+	background-color: black;
+	color: white;
+	width: 85px;
+	height: 25px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.ini{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+}
+
+/* ----------------------------------------- */
+
+.bin{
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-right: 8px;
+	width: 0px;
+	height: 25px;
+	text-align: center;
+}
+
+.in{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.iin{
+	border: none;
+	background-color: none;
+	width: 30px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+/* ----------------------------------------- */
+
+.bca{
+	margin-top: 50px;
+	margin-left: 20px;
+	background-color: black;
+	color: white;
+	width: 120px;
+	height: auto;
+	text-align: center;
+	font-size: 11px;
+}
+
+.ca{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+}
+
+/* ----------------------------------------- */
+
+.bcel2{
+	margin-top: 50px;
+	margin-left: 5.7px;
+	width: 33px;
+	height: 33px;
+	text-align: center;
+	border: 1px Solid black;
+}
+
+.cel2{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.icel2{
+	border: none;
+	background-color: none;
+	width: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 3px;
+}
+
+/* ----------------------------------------- */
+
+.bcel3{
+	margin-top: 58px;
+	margin-left: 5.7px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.cel3{
+	margin: 0%;
+}
+
+/* ----------------------------------------- */
+
+.bcel4{
+	padding-top: 5px;
+	margin-left: 0px;
+	text-align: center;
+	font-size: 9px;
+	width: 40px;
+}
+
+.cel4{
+	margin: 0%;
+}
+
+/* ----------------------------------------- */
+
+.bl2{
+	padding-top: 48px;
+	padding-left: 40px;
+	font-size: 12px;
+	position: absolute;
+}
+
+.bll2{
+	margin: 0%;
+	font-size: 9px;
+	position: absolute;
+}
+
+.ibll2{
+	padding-left: 30px;
+}
+
+/* ----------------------------------------- */
+
+.sauv{
+	margin-top: 300px;
+	color: red;
+}
+
+.bsauv{
+	font-size: 9px;
+}
+
+.isauv{
+	padding-left: 30px;
+}
+
+
+.test {
+	background-color: blue;
+}
+
+</style>

@@ -1,0 +1,1140 @@
+html{
+	background-color: #C0C0C0;
+}
+
+body{
+	width: 1240px;
+	height: 1754px;
+	border: 1px Solid black;
+	margin: auto;
+	background-color: white;
+	padding: 30px;
+}
+
+/* Parents / Enfants ----------------------------------------------- */
+
+
+/* ----------------------------------------- */
+
+.p {
+	display: block;
+}
+
+.e {
+	display : inline-block;
+	vertical-align: text-top; 
+}
+
+/* Mise en forme ----------------------------------------------- */
+
+
+/* ----------------------------------------- */
+
+img {
+	width: 400px;
+	height: auto;
+	position: absolute;
+}
+
+p,h1 {
+	font-family: FreeMono, monospace;
+}
+
+h1 {
+	font-size: 20px;
+	margin-left: 95px;
+}
+
+.min {
+	font-size: 12px;
+}
+
+.blocp{
+	font-size: 13px;
+}
+
+/* Premier bloc d'information (Personnage, alignement ... ----------------------------------------------- */
+
+/* ----------------------------------------- */
+
+.bl{
+	padding-top: 22px;
+	padding-left: 40px;
+	font-size: 12px;
+	position: absolute;
+}
+
+.bll{
+	margin: 0%;
+	font-size: 9px;
+}
+
+
+/* ----------------------------------------- */
+
+.bnom{
+	margin-left: 400px;
+	margin-top: 15px;
+}
+
+.nom{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.inom{
+	border: none;
+	background-color: none;
+	width: 285px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bal{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.al{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.ial{
+	border: none;
+	background-color: none;
+	width: 105px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bpj{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.pj{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.ipj{
+	border: none;
+	background-color: none;
+	width: 365px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bcn{
+	margin-top: 8px;
+	margin-left: 400px;
+}
+
+.cn{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.icn{
+	border: none;
+	background-color: none;
+	width: 425px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bdi{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.di{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.idi{
+	border: none;
+	background-color: none;
+	width: 160px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bor{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.or{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.ior{
+	border: none;
+	background-color: none;
+	width: 170px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.brc{
+	margin-top: 8px;
+	margin-left: 72px;
+}
+
+.rc{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.irc{
+	border: none;
+	background-color: none;
+	width: 168px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bctl{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.ctl{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.ictl{
+	border: none;
+	background-color: none;
+	width: 80px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bsx{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.sx{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.isx{
+	border: none;
+	background-color: none;
+	width: 60px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bag{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.ag{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.iag{
+	border: none;
+	background-color: none;
+	width: 45px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.btl{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.tl{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.itl{
+	border: none;
+	background-color: none;
+	width: 70px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bpo{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.po{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.ipo{
+	border: none;
+	background-color: none;
+	width: 70px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bch{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.ch{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.ich{
+	border: none;
+	background-color: none;
+	width: 70px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+.bye{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.ye{
+	border-top: 1px Solid black;
+	margin: 0%;
+}
+
+.iye{
+	border: none;
+	background-color: none;
+	width: 70px;
+	padding-bottom: 0px;
+}
+
+/* ----------------------------------------- */
+
+
+/* Bloc caractèristique, PV, VD, Initiative ----------------------------------------------- */
+
+
+/* ----------------------------------------- */
+
+.bde{
+	margin-top: 8px;
+	margin-left: 15px;
+	height: auto;
+	text-align: center;
+}
+
+.de{
+	margin: 0%;
+	font-size: 11px;
+}
+
+/* ----------------------------------------- */
+
+.bcar{
+	margin-top: 8px;
+	margin-left: 20px;
+	background-color: black;
+	color: white;
+	width: 80px;
+	height: auto;
+	text-align: center;
+	font-size: 11px;
+}
+
+.car{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+}
+
+/* ----------------------------------------- */
+
+.bcel{
+	margin-top: 8px;
+	margin-left: 20px;
+	width: 30px;
+	height: 25px;
+	text-align: center;
+	border: 1px Solid black;
+}
+
+.cel{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.icel{
+	border: none;
+	background-color: none;
+	width: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 13px;
+}
+
+/* ----------------------------------------- */
+
+.bpvv{
+	margin-top: 8px;
+	margin-left: 30px;
+	background-color: black;
+	color: white;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	font-size: 11px;
+}
+
+.pvv{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+}
+
+/* ----------------------------------------- */
+
+.bpv{
+	margin-top: 8px;
+	margin-left: 5px;
+	width: 100px;
+	height: 38px;
+	text-align: center;
+	border: 1px Solid black;
+	font-size: 12px;
+}
+
+.pv{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	text-align: left;
+	
+}
+
+.ipv{
+	border: none;
+	background-color: none;
+	width: 30px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+/* ----------------------------------------- */
+
+.bmv{
+	margin-top: 8px;
+	margin-left: 5px;
+	width: 100px;
+	height: 38px;
+	text-align: center;
+	border: 1px Solid black;
+	font-size: 12px;
+}
+
+.mv{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.imv{
+	border: none;
+	background-color: none;
+	width: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+/* ----------------------------------------- */
+
+.btem{
+	margin-top: 8px;
+	margin-left: 5px;
+	width: 200px;
+	height: 38px;
+	text-align: center;
+	border: 1px Solid black;
+	font-size: 12px;
+}
+
+.tem{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+}
+
+.item{
+	border: none;
+	background-color: none;
+	width: 150px;
+	padding-bottom: 0px;
+	text-align: center;
+	margin-left: 35px;
+}
+
+/* ----------------------------------------- */
+
+.bini{
+	margin-top: 8px;
+	margin-left: 35px;
+	background-color: black;
+	color: white;
+	width: 85px;
+	height: 25px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.ini{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+}
+
+/* ----------------------------------------- */
+
+.bin{
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-right: 8px;
+	width: 0px;
+	height: 25px;
+	text-align: center;
+}
+
+.in{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.iin{
+	border: none;
+	background-color: none;
+	width: 30px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+/* Bloc classe d'armure ----------------------------------------------- */
+
+/* ----------------------------------------- */
+
+.bca{
+	margin-top: 50px;
+	margin-left: 20px;
+	background-color: black;
+	color: white;
+	width: 120px;
+	height: auto;
+	text-align: center;
+	font-size: 11px;
+}
+
+.ca{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+}
+
+/* ----------------------------------------- */
+
+.bcel2{
+	margin-top: 50px;
+	margin-left: 5.7px;
+	width: 33px;
+	height: 33px;
+	text-align: center;
+	border: 1px Solid black;
+}
+
+.cel2{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.icel2{
+	border: none;
+	background-color: none;
+	width: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 3px;
+}
+
+/* ----------------------------------------- */
+
+.bcel3{
+	margin-top: 58px;
+	margin-left: 5.7px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.cel3{
+	margin: 0%;
+}
+
+/* ----------------------------------------- */
+
+.bcel4{
+	padding-top: 5px;
+	margin-left: 0px;
+	text-align: center;
+	font-size: 9px;
+	width: 40px;
+}
+
+.cel4{
+	margin: 0%;
+}
+
+/* ----------------------------------------- */
+
+.bl2{
+	padding-top: 48px;
+	padding-left: 40px;
+	font-size: 12px;
+	position: absolute;
+}
+
+.bll2{
+	margin: 0%;
+	font-size: 9px;
+	position: absolute;
+}
+
+.ibll2{
+	padding-left: 30px;
+}
+
+
+/* Bloc jet de sauvegarde ----------------------------------------------- */
+
+
+/* ----------------------------------------- */
+
+.blsav{
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size: 12px;
+	position: absolute;
+}
+
+.bllsav{
+	margin: 0%;
+	font-size: 11px;
+	position: absolute;
+	margin-left: 76px;
+	margin-top: 3px;
+}
+
+/* ----------------------------------------- */
+
+.sauv{
+	margin-top: 15px;
+	margin-left: 20px;
+	height: auto;
+	text-align: center;
+}
+
+.bsauv{
+	margin: 0%;
+	font-size: 11px;
+}
+
+/* ----------------------------------------- */
+
+.sav{
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: black;
+	color: white;
+	width: 100px;
+	height: auto;
+	text-align: center;
+	font-size: 11px;
+}
+
+.bsav{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	font-size: 14px;
+}
+
+.bbsav{
+	font-size: 10px;
+}
+
+/* ----------------------------------------- */
+
+.bsavc{
+	margin-top: 25px;
+	margin-left: 11px;
+	width: 30px;
+	height: 25px;
+	text-align: center;
+	border: 1px Solid black;
+}
+
+.savc{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.isavc{
+	border: none;
+	background-color: none;
+	width: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 13px;
+}
+
+/* ----------------------------------------- */
+
+.bsa{
+	margin-top: 30px;
+	margin-left: 11px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.csa{
+	margin: 0%;
+}
+
+/* Bloc BBA / RM / BMO / DMD ----------------------------------------------- */
+
+/* ----------------------------------------- */
+
+.bba{
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: black;
+	color: white;
+	width: 220px;
+	height: auto;
+	text-align: center;
+	font-size: 12px;
+}
+
+.bbba{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	font-size: 14px;
+}
+
+.bbbba{
+	font-size: 10px;
+}
+
+/* ----------------------------------------- */
+
+.bbaby{
+	margin-top: 25px;
+	margin-left: 11px;
+	width: 120px;
+	height: 25px;
+	text-align: center;
+	border: 1px Solid black;
+}
+
+.baby{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.ibaby{
+	border: none;
+	background-color: none;
+	width: 110px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 13px;
+}
+
+/* ----------------------------------------- */
+
+.mag{
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: black;
+	color: white;
+	width: 150px;
+	height: auto;
+	text-align: center;
+	font-size: 12px;
+}
+
+.bmag{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	font-size: 14px;
+}
+
+.bbmag{
+	font-size: 10px;
+}
+
+/* ----------------------------------------- */
+
+.bmagy{
+	margin-top: 25px;
+	margin-left: 11px;
+	width: 85px;
+	height: 25px;
+	text-align: center;
+	border: 1px Solid black;
+}
+
+.magy{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.imagy{
+	border: none;
+	background-color: none;
+	width: 70px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 13px;
+}
+
+/* ----------------------------------------- */
+
+.bdmd{
+	padding-top: 15px;
+	padding-left: 24px;
+	font-size: 12px;
+	position: absolute;
+}
+
+.bldmd{
+	margin: 0%;
+	font-size: 11px;
+	position: absolute;
+	margin-left: 107px;
+	margin-top: 3px;
+}
+
+/* ----------------------------------------- */
+
+.dmd{
+	margin-top: 0px;
+	height: auto;
+}
+
+.bdmd{
+	margin: 0%;
+	font-size: 11px;
+}
+
+/* Bloc Arme ----------------------------------------------- */
+
+/* ----------------------------------------- */
+
+.weap{
+	margin-top: 40px;
+	margin-left: 20px;
+	background-color: black;
+	color: white;
+	width: 220px;
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.bweap{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	font-size: 18px;
+}
+
+/* ----------------------------------------- */
+
+.weap2{
+	margin-top: 50px;
+	margin-left: -5px;
+	background-color: black;
+	color: white;
+	width: 205px;
+	height: 20px;
+	text-align: center;
+}
+
+.bweap2{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	font-size: 11px;
+}
+
+/* ----------------------------------------- */
+
+.bweap3{
+	margin-top: -3px;
+	margin-left: 18px;
+}
+
+.weap3{
+	margin: 0%;
+	padding: 2px 2px 2px 2px;
+	
+}
+
+.iweap3{
+	border: none;
+	background-color: none;
+	width: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 13px;
+}
+
+/* ----------------------------------------- */
+
+.bweap4{
+	margin-top: -3px;
+	margin-left: -7px;
+}
+
+.weap4{
+	margin: 0%;
+	padding: 2px 2px 2px 2px;
+	
+}
+
+.iweap4{
+	border: none;
+	background-color: none;
+	width: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 13px;
+}
+
+/* ----------------------------------------- */
+
+.weap5{
+	margin-top: -1px;
+	margin-left: 20px;
+	background-color: black;
+	color: white;
+	width: 158px;
+	height: 20px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.bweap5{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	font-size: 10px;
+}
+
+/* ----------------------------------------- */
+
+.weap6{
+	margin-top: -1px;
+	margin-left: -5px;
+	background-color: black;
+	color: white;
+	width: 158px;
+	height: 20px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.bweap6{
+	margin: 0%;
+	padding: 5px 5px 5px 5px;
+	font-size: 10px;
+}
+
+/* ----------------------------------------- */
+
+.bweap7{
+	margin-top: -3px;
+	margin-left: 18px;
+}
+
+.weap7{
+	margin: 0%;
+	padding: 2px 2px 2px 2px;
+	
+}
+
+.iweap7{
+	border: none;
+	background-color: none;
+	width: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 13px;
+}
+
+/* ----------------------------------------- */
+
+.bweap8{
+	margin-top: -3px;
+	margin-left: -7px;
+}
+
+.weap8{
+	margin: 0%;
+	padding: 2px 2px 2px 2px;
+	
+}
+
+.iweap8{
+	border: none;
+	background-color: none;
+	width: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 13px;
+}
+
+/* Bloc Compétences ----------------------------------------------- */
+
+/* ----------------------------------------- */
+
+.debutcomp {
+	margin-top: 20px;
+	margin-left: 690px;
+	font-size: 12px;
+	border: 1px Solid black;
+	width: 505px;
+	height: 1430px;
+	position: absolute;
+}
+
+/* ----------------------------------------- */
+
+.titrec {
+	margin-top: -1px;
+	font-size: 18px;
+	padding-top: 10px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 30px;
+}
+
+/* ----------------------------------------- */
+
+.compt{
+	margin-top: 0px;
+}
+
+.bcompt{
+	margin: 0%;
+	font-size: 11px;
+}	
+	
+/* ----------------------------------------- */
+
+.compt2{
+	margin-top: 10px;
+}
+
+.bcompt2{
+	margin: 0%;
+	font-size: 11px;
+}
+
+.bcompt3{
+	margin: 0%;
+	font-size: 10px;
+}
+
+.icomp2{
+	border: none;
+	border-bottom: 1px Solid Black;
+	width: 30px;
+	text-align: center;
+}
+
+.icomp3{
+	border: none;
+	border-bottom: 1px dotted Black;
+	width: 70px;
+	font-size: 8px;
+}
+
+.icomp4{
+	border: none;
+	border-bottom: 1px dotted Black;
+	width: 42px;
+	font-size: 8px;
+}
+
+.icomp5{
+	border: none;
+	border-bottom: 1px dotted Black;
+	width: 50px;
+	font-size: 8px;
+}
+
+.compt6{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+/* Retirer les flèches des input */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Les bouttons de validation / reload */
+
+.lesbuttons {
+	position: absolute;
+	margin-left : 110px;
+}
+
+.buu {
+	background-color: black;
+	color: white;
+}
+
+.cop {
+	font-size: 9px;
+}

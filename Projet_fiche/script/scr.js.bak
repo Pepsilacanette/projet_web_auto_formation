@@ -1,0 +1,11 @@
+var a = 15;
+
+function calc_for(){
+	if (a == 15){
+		alert('c'est vrai');}
+}
+
+var maFonction = function(message){
+alert(message);
+};
+maFonction('ceci est un test');
